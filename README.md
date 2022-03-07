@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=daksh7011&label=Profile%20views&color=0e75b6&style=flat" alt="daksh7011" /> </p>
 
-<p align="left"> <a href="https://twitter.com/slothiesmooth" target="blank"><img src="https://img.shields.io/twitter/follow/slothiesmooth?logo=twitter&style=for-the-badge" alt="slothiesmooth" /></a> </p>
+<p align="left"> <a href="https://twitter.com/slothiesmooth" target="blank"><img src="https://img.shields.io/twitter/follow/slothiesmooth?logo=twitter&style=for-the-badge" alt="slothiesmooth" /></a></p>
 
 - 🔭 I’m currently working on [IP Scanner](https://gitlab.com/technowolf/ip-scanner)
 

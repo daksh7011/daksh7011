@@ -19,7 +19,7 @@
 
 - 📫 How to reach me **daksh@technowolf.in**
 
-- 📄 My resume is available at [https://slothiesmooth.dev/resume](https://slothiesmooth.dev/Resume.pdf)
+- 📄 My resume is available at [https://slothiesmooth.dev/Resume.pdf](https://slothiesmooth.dev/Resume.pdf)
 
 ### Recent Blog posts
 <!-- BLOG-POST-LIST:START -->

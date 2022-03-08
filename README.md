@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Daksh (SlothieSmooth)</h1>
-<h3 align="center">I believe in Caffeine, Codes, and Cars. First I create things, Then I break them. <br />Open source your work,Knowledge is free.</h3>
+<h3 align="center">I believe in Caffeine, Codes, and Cars. First I create things, Then I break them. <br />Open source your work, Knowledge is free.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=daksh7011&label=Profile%20views&color=0e75b6&style=flat" alt="daksh7011" /> </p>
 
@@ -9,15 +9,15 @@
 
 - 🌱 I’m currently learning **OSINT and Swift for iOS development.**
 
-- 🤝 I’m looking for help with [Troy - Discord Bot](https://gitlab.com/technowolf/troy)
+- 🤝 I’m seeking help with [Troy - Discord Bot](https://gitlab.com/technowolf/troy)
 
 - 👨‍💻 List of my projects are available at [https://slothiesmooth.dev/projects](https://slothiesmooth.dev/projects)
 
 - 📝 I regularly write articles on [https://slothiesmooth.dev/](https://slothiesmooth.dev/)
 
-- 💬 Lets talk about **engines, PCMR, gaming and .**
+- 💬 Let's talk about **engines, PCMR, gaming and whiskey.**
 
-- 📫 How to reach me **daksh@technowolf.in**
+- 📫 How to reach me, **daksh@technowolf.in**
 
 - 📄 My resume is available at [https://slothiesmooth.dev/Resume.pdf](https://slothiesmooth.dev/Resume.pdf)
 
@@ -47,3 +47,4 @@
 
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/daksh7011"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="daksh7011" /></a></p><br><br>
+

@@ -23,10 +23,10 @@
 
 ### Recent Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Blockchain and buzzwords explained](https://slothiesmooth.dev/post/blockchain-and-buzzwords/)
 - [Dissecting Android Apps](https://slothiesmooth.dev/post/dissecting-android-apps/)
 - [The Design Thinking](https://slothiesmooth.dev/post/the-design-thinking/)
 - [Global Coroutine scope is scary](https://slothiesmooth.dev/post/globle-coroutine-scope-is-scary/)
-- [Logging for Dummies](https://slothiesmooth.dev/post/logging-for-dummies/)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>

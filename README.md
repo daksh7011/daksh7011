@@ -15,10 +15,10 @@
 
 ### Recent Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Ultrahuman Ring Air: A Love-Hate Relationship](https://slothiesmooth.dev/post/ultrahuman-ring-love-hate-relationship/)
 - [Blockchain and buzzwords explained](https://slothiesmooth.dev/post/blockchain-and-buzzwords/)
 - [Dissecting Android Apps](https://slothiesmooth.dev/post/dissecting-android-apps/)
 - [The Design Thinking](https://slothiesmooth.dev/post/the-design-thinking/)
-- [Global Coroutine scope is scary](https://slothiesmooth.dev/post/globle-coroutine-scope-is-scary/)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>

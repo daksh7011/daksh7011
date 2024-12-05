@@ -15,10 +15,10 @@
 
 ### Recent Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [The Rebase Rebel: My Journey Through Git&#39;s Branching Madness](https://slothiesmooth.dev/post/the-rebase-rebel/)
 - [Ultrahuman Ring Air: A Love-Hate Relationship](https://slothiesmooth.dev/post/ultrahuman-ring-love-hate-relationship/)
 - [Blockchain and buzzwords explained](https://slothiesmooth.dev/post/blockchain-and-buzzwords/)
 - [Dissecting Android Apps](https://slothiesmooth.dev/post/dissecting-android-apps/)
-- [The Design Thinking](https://slothiesmooth.dev/post/the-design-thinking/)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>

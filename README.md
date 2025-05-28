@@ -9,8 +9,6 @@
 
 - 📝 I write articles on [https://slothiesmooth.dev/](https://slothiesmooth.dev/)
 
-- 📫 How to reach me, **daksh@technowolf.in**
-
 - 📄 My resume is available at [https://slothiesmooth.dev/Resume.pdf](https://slothiesmooth.dev/Resume.pdf)
 
 ### Recent Blog posts

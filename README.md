@@ -32,6 +32,8 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=daksh7011&theme=dark" alt="daksh7011" /></p>
 
+<p><img src="https://roadmap.sh/card/tall/669650802b17b182cb09581b?variant=dark" alt="roadmap.sh"/></p>
+
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/daksh7011"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="daksh7011" /></a></p><br><br>
 

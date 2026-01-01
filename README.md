@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Daksh (SlothieSmooth)</h1>
-<h3 align="center">I am Android Engineer by profession but I love to explore the tech world as whole. <br />Open source your work, Knowledge is free.</h3>
+<h3 align="center">I am Mobile Engineer by profession but I love to explore the tech world as whole. <br />Open source your work, Knowledge is free.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=daksh7011&label=Profile%20views&color=0e75b6&style=flat" alt="daksh7011" /> </p>
 

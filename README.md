@@ -29,7 +29,7 @@
 ### ✍️ Recent Blog Posts
 
 <!-- BLOG-START -->
-- [Project Warden – Distributed AI Infrastructure on Consumer Hardware](https://slothiesmooth.dev/project-warden-distributed-ai-infrastructure-on-consumer-hardware/)
+- [Project Warden – Distributed AI Infrastructure on Consumer Hardware](https://slothiesmooth.dev/project-warden-distributed-ai-infrastructure-on-consumer-hardware/)
 - [Enterprise-Grade Network Security: Virtualized OPNsense on Proxmox](https://slothiesmooth.dev/enterprise-grade-network-security-virtualized-opnsense-on-proxmox/)
 - [Practical Guide to Managing Linux Disks with fdisk](https://slothiesmooth.dev/practical-guide-to-managing-linux-disks-with-fdisk/)
 - [Proxmox: Expanding Your Linux VM Storage](https://slothiesmooth.dev/proxmox-expanding-linux-vm-storage/)
@@ -37,19 +37,6 @@
 <!-- BLOG-END -->
 
 > 📝 More articles at [slothiesmooth.dev](https://slothiesmooth.dev)
-
----
-
-### 📊 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=daksh7011&show_icons=true&theme=dark&locale=en" alt="daksh7011" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=daksh7011&show_icons=true&theme=dark&locale=en&layout=compact" alt="daksh7011" />
-</p>
-
-<p align="left">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=daksh7011&theme=dark" alt="daksh7011" />
-</p>
 
 ---
 

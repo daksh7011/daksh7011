@@ -14,26 +14,58 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Fetch latest posts from Ghost Content API
-        id: fetch_posts
         env:
           GHOST_API_KEY: ${{ secrets.GHOST_CONTENT_API_KEY }}
         run: |
-          RESPONSE=$(curl -s "https://slothiesmooth.dev/ghost/api/content/posts/?key=${GHOST_API_KEY}&limit=5&fields=title,url")
+          RESPONSE=$(curl -s -w "\n%{http_code}" \
+            "https://slothiesmooth.dev/ghost/api/content/posts/?key=${GHOST_API_KEY}&limit=5&fields=title,url")
+
+          HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+          BODY=$(echo "$RESPONSE" | sed '$d')
+
+          echo "HTTP status: $HTTP_CODE"
+          echo "Response body: $BODY"
+
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "Error: Ghost API returned HTTP $HTTP_CODE"
+            exit 1
+          fi
 
           # Parse titles and URLs using jq and build markdown list
-          BLOG_LINES=$(echo "$RESPONSE" | jq -r '.posts[] | "- [\(.title)](\(.url))"')
+          BLOG_LINES=$(echo "$BODY" | jq -r '.posts[] | "- [\(.title)](\(.url))"')
 
-          # Escape for use in sed (handle special characters)
-          ESCAPED=$(echo "$BLOG_LINES" | sed 's/[&/\]/\\&/g')
+          echo "Parsed blog lines:"
+          echo "$BLOG_LINES"
 
-          # Replace content between markers
-          sed -i "/<!-- BLOG-START -->/,/<!-- BLOG-END -->/{
-            /<!-- BLOG-START -->/!{/<!-- BLOG-END -->/!d}
-            /<!-- BLOG-START -->/a\\
-          $ESCAPED
-          }" README.md
+          # Write the new blog section to a temp file
+          {
+            echo "<!-- BLOG-START -->"
+            echo "$BLOG_LINES"
+            echo "<!-- BLOG-END -->"
+          } > /tmp/blog_section.txt
 
-          echo "Blog section updated successfully."
+          # Replace everything between markers (inclusive) with the new block
+          python3 - <<'EOF'
+          import re
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          with open("/tmp/blog_section.txt", "r") as f:
+              replacement = f.read().strip()
+
+          new_content = re.sub(
+              r"<!-- BLOG-START -->.*?<!-- BLOG-END -->",
+              replacement,
+              content,
+              flags=re.DOTALL,
+          )
+
+          with open("README.md", "w") as f:
+              f.write(new_content)
+
+          print("README.md updated successfully.")
+          EOF
 
       - name: Commit and push if changed
         run: |

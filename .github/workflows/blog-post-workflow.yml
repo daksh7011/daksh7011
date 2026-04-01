@@ -1,15 +1,44 @@
-name: Latest blog post workflow
-on: 
-    workflow_dispatch:
-    schedule:
-        - cron: '*/10 * * * *'
-jobs: 
-    update-readme-with-blog: 
-        name: Update this repo's README with latest blog posts
-        runs-on: ubuntu-latest
-        steps: 
-            - uses: actions/checkout@v2
-            - uses: gautamkrishnar/blog-post-workflow@master
-              with: 
-                max_post_count: "4"
-                feed_list: "https://slothiesmooth.dev/rss"
+name: Update Blog Posts
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs daily at midnight UTC
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  update-blog:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch latest posts from Ghost Content API
+        id: fetch_posts
+        env:
+          GHOST_API_KEY: ${{ secrets.GHOST_CONTENT_API_KEY }}
+        run: |
+          RESPONSE=$(curl -s "https://slothiesmooth.dev/ghost/api/content/posts/?key=${GHOST_API_KEY}&limit=5&fields=title,url")
+
+          # Parse titles and URLs using jq and build markdown list
+          BLOG_LINES=$(echo "$RESPONSE" | jq -r '.posts[] | "- [\(.title)](\(.url))"')
+
+          # Escape for use in sed (handle special characters)
+          ESCAPED=$(echo "$BLOG_LINES" | sed 's/[&/\]/\\&/g')
+
+          # Replace content between markers
+          sed -i "/<!-- BLOG-START -->/,/<!-- BLOG-END -->/{
+            /<!-- BLOG-START -->/!{/<!-- BLOG-END -->/!d}
+            /<!-- BLOG-START -->/a\\
+          $ESCAPED
+          }" README.md
+
+          echo "Blog section updated successfully."
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update blog posts [skip ci]"
+          git push

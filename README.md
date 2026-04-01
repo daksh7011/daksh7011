@@ -29,10 +29,11 @@
 ### ✍️ Recent Blog Posts
 
 <!-- BLOG-START -->
-- [The Rebase Rebel: My Journey Through Git's Branching Madness](https://slothiesmooth.dev/post/the-rebase-rebel/)
-- [Ultrahuman Ring Air: A Love-Hate Relationship](https://slothiesmooth.dev/post/ultrahuman-ring-love-hate-relationship/)
-- [Blockchain and buzzwords explained](https://slothiesmooth.dev/post/blockchain-and-buzzwords/)
-- [Dissecting Android Apps](https://slothiesmooth.dev/post/dissecting-android-apps/)
+- [Project Warden – Distributed AI Infrastructure on Consumer Hardware](https://slothiesmooth.dev/project-warden-distributed-ai-infrastructure-on-consumer-hardware/)
+- [Enterprise-Grade Network Security: Virtualized OPNsense on Proxmox](https://slothiesmooth.dev/enterprise-grade-network-security-virtualized-opnsense-on-proxmox/)
+- [Practical Guide to Managing Linux Disks with fdisk](https://slothiesmooth.dev/practical-guide-to-managing-linux-disks-with-fdisk/)
+- [Proxmox: Expanding Your Linux VM Storage](https://slothiesmooth.dev/proxmox-expanding-linux-vm-storage/)
+- [Automating Your Docker Setup with Systemd](https://slothiesmooth.dev/automating-your-docker-setup-with-systemd/)
 <!-- BLOG-END -->
 
 > 📝 More articles at [slothiesmooth.dev](https://slothiesmooth.dev)

@@ -14,6 +14,8 @@
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-%234285F4.svg?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 
 ### ⚙️ DevOps & Infra
 
@@ -29,7 +31,7 @@
 ### ✍️ Recent Blog Posts
 
 <!-- BLOG-START -->
-- [Project Warden – Distributed AI Infrastructure on Consumer Hardware](https://slothiesmooth.dev/project-warden-distributed-ai-infrastructure-on-consumer-hardware/)
+- [Project Warden – Distributed AI Infrastructure on Consumer Hardware](https://slothiesmooth.dev/project-warden-distributed-ai-infrastructure-on-consumer-hardware/)
 - [Enterprise-Grade Network Security: Virtualized OPNsense on Proxmox](https://slothiesmooth.dev/enterprise-grade-network-security-virtualized-opnsense-on-proxmox/)
 - [Practical Guide to Managing Linux Disks with fdisk](https://slothiesmooth.dev/practical-guide-to-managing-linux-disks-with-fdisk/)
 - [Proxmox: Expanding Your Linux VM Storage](https://slothiesmooth.dev/proxmox-expanding-linux-vm-storage/)

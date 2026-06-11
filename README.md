@@ -31,11 +31,11 @@
 ### ✍️ Recent Blog Posts
 
 <!-- BLOG-START -->
+- [I Set Up QoS on OPNsense in Ten Minutes. Proving It Worked Took 4 A.M](https://slothiesmooth.dev/i-set-up-qos-on-opnsense-in-ten-minutes-proving-it-worked-took-4-a-m/)
 - [Project Warden – Distributed AI Infrastructure on Consumer Hardware](https://slothiesmooth.dev/project-warden-distributed-ai-infrastructure-on-consumer-hardware/)
 - [Enterprise-Grade Network Security: Virtualized OPNsense on Proxmox](https://slothiesmooth.dev/enterprise-grade-network-security-virtualized-opnsense-on-proxmox/)
 - [Practical Guide to Managing Linux Disks with fdisk](https://slothiesmooth.dev/practical-guide-to-managing-linux-disks-with-fdisk/)
 - [Proxmox: Expanding Your Linux VM Storage](https://slothiesmooth.dev/proxmox-expanding-linux-vm-storage/)
-- [Automating Your Docker Setup with Systemd](https://slothiesmooth.dev/automating-your-docker-setup-with-systemd/)
 <!-- BLOG-END -->
 
 > 📝 More articles at [slothiesmooth.dev](https://slothiesmooth.dev)

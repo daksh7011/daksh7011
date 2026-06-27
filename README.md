@@ -31,11 +31,11 @@
 ### ✍️ Recent Blog Posts
 
 <!-- BLOG-START -->
+- [I Built Varve. Most of It Was Finding Out I Was Wrong.](https://slothiesmooth.dev/i-built-varve-most-of-it-was-finding-out-i-was-wrong/)
 - [The Only Career Advice I'm Qualified to Give](https://slothiesmooth.dev/the-only-career-advice-im-qualified-to-give/)
 - [I Set Up QoS on OPNsense in Ten Minutes. Proving It Worked Took 4 A.M](https://slothiesmooth.dev/i-set-up-qos-on-opnsense-in-ten-minutes-proving-it-worked-took-4-a-m/)
 - [Project Warden – Distributed AI Infrastructure on Consumer Hardware](https://slothiesmooth.dev/project-warden-distributed-ai-infrastructure-on-consumer-hardware/)
 - [Enterprise-Grade Network Security: Virtualized OPNsense on Proxmox](https://slothiesmooth.dev/enterprise-grade-network-security-virtualized-opnsense-on-proxmox/)
-- [Practical Guide to Managing Linux Disks with fdisk](https://slothiesmooth.dev/practical-guide-to-managing-linux-disks-with-fdisk/)
 <!-- BLOG-END -->
 
 > 📝 More articles at [slothiesmooth.dev](https://slothiesmooth.dev)

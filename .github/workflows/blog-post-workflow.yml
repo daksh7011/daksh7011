@@ -8,8 +8,18 @@ on:
 jobs:
   update-blog:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # push README updates
+      actions: write # re-enable this workflow (keepalive)
 
     steps:
+      # GitHub disables scheduled workflows after 60 days without commits.
+      # Re-enabling via the API resets that timer, so no dummy commits needed.
+      - name: Keep schedule alive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/blog-post-workflow.yml/enable"
+
       - name: Checkout repo
         uses: actions/checkout@v4
 
@@ -32,7 +42,8 @@ jobs:
           fi
 
           # Parse titles and URLs using jq and build markdown list
-          BLOG_LINES=$(echo "$BODY" | jq -r '.posts[] | "- [\(.title)](\(.url))"')
+          # Swap em/en dashes in titles for a plain hyphen
+          BLOG_LINES=$(echo "$BODY" | jq -r '.posts[] | "- [\(.title | gsub(" ?[\u2014\u2013] ?"; " - "))](\(.url))"')
 
           echo "Parsed blog lines:"
           echo "$BLOG_LINES"

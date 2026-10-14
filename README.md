@@ -96,11 +96,11 @@ Open source your work. Knowledge is free.
 ### ✍️ Recent Blog Posts
 
 <!-- BLOG-START -->
+- [You Can't Force Sleep. You Can't Force Speed Either.](https://slothiesmooth.dev/you-cant-force-sleep-you-cant-force-speed-either/)
 - [I Built Varve. Most of It Was Finding Out I Was Wrong.](https://slothiesmooth.dev/i-built-varve-most-of-it-was-finding-out-i-was-wrong/)
 - [I Set Up QoS on OPNsense in Ten Minutes. Proving It Worked Took 4 A.M](https://slothiesmooth.dev/i-set-up-qos-on-opnsense-in-ten-minutes-proving-it-worked-took-4-a-m/)
-- [Project Warden - Distributed AI Infrastructure on Consumer Hardware](https://slothiesmooth.dev/project-warden-distributed-ai-infrastructure-on-consumer-hardware/)
+- [Project Warden - Distributed AI Infrastructure on Consumer Hardware](https://slothiesmooth.dev/project-warden-distributed-ai-infrastructure-on-consumer-hardware/)
 - [Enterprise-Grade Network Security: Virtualized OPNsense on Proxmox](https://slothiesmooth.dev/enterprise-grade-network-security-virtualized-opnsense-on-proxmox/)
-- [Practical Guide to Managing Linux Disks with fdisk](https://slothiesmooth.dev/practical-guide-to-managing-linux-disks-with-fdisk/)
 <!-- BLOG-END -->
 
 > 📝 Read more at [slothiesmooth.dev](https://slothiesmooth.dev)
